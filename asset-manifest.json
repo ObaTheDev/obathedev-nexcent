@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/obathedev-nexcent/static/css/main.24fa083c.css",
-    "main.js": "/obathedev-nexcent/static/js/main.0e484a73.js",
+    "main.css": "/obathedev-nexcent/static/css/main.9d0653d5.css",
+    "main.js": "/obathedev-nexcent/static/js/main.1c646a97.js",
     "static/media/rafiki.png": "/obathedev-nexcent/static/media/rafiki.7ea22bd564711e270ec6.png",
     "static/media/windows.png": "/obathedev-nexcent/static/media/windows.99a90dd2c40e34520e04.png",
     "index.html": "/obathedev-nexcent/index.html",
-    "main.24fa083c.css.map": "/obathedev-nexcent/static/css/main.24fa083c.css.map",
-    "main.0e484a73.js.map": "/obathedev-nexcent/static/js/main.0e484a73.js.map"
+    "main.9d0653d5.css.map": "/obathedev-nexcent/static/css/main.9d0653d5.css.map",
+    "main.1c646a97.js.map": "/obathedev-nexcent/static/js/main.1c646a97.js.map"
   },
   "entrypoints": [
-    "static/css/main.24fa083c.css",
-    "static/js/main.0e484a73.js"
+    "static/css/main.9d0653d5.css",
+    "static/js/main.1c646a97.js"
   ]
 }
