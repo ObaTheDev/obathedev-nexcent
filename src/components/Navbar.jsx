@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return(
-        <div className="bg-black grid grid-cols-3 gap-[90%] lg:gap-12 py-4 px-[5%]">
+        <div className="bg-black grid grid-cols-3 gap-[90%] md:gap-8 lg:gap-20 py-4 px-[5%]">
             <div className="logoDiv grid-cols-1 flex gap-2">
             <img src= {logo} alt="Logo" className="w-[30px] h-[26px]"/>  
             <h1 className="text-white text-xl font-bold">
@@ -17,11 +17,11 @@ const Navbar = () => {
             </h1>
             </div>
             <div className="grid-cols-2 flex  gap-10">
-            <button onClick={() => setIsOpen(!isOpen)} className="block lg:hidden focus:outline-none text-white">
+            <button onClick={() => setIsOpen(!isOpen)} className="block lg:hidden md:hidden focus:outline-none text-white">
                 {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
         {/* Navbar Links (Hidden on Mobile) */}
-            <ul className={`sm:flex sm:space-x-6 lg:hidden text-center absolute sm:static bg-black w-full sm:w-auto left-0 top-16 sm:top-0 transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
+            <ul className={`sm:flex sm:space-x-6 lg:hidden  xl:hidden text-center absolute sm:static bg-black w-full sm:w-auto left-0 top-16 sm:top-0 transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
 
                 <li className="hover:text-themeGreen cursor-pointer p-4">
                     <NavLink to ="/home" className={({isActive}) => `${isActive ? "text-themeGreen" : "text-silver"}`}> Home</NavLink> 
