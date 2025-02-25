@@ -45,7 +45,7 @@ const Register = ()=> {
 
 
             <h2 className="text-lightGrey mt-5">
-            <NavLink to = "/Login">Have an account? Login</NavLink>   
+            <NavLink to = "/login">Have an account? Login</NavLink>   
             </h2>
             </div>
             <motion.div initial= {{x: 200, opacity: 0}} whileInView={{x: 0, opacity: 1}} transition={{duration: 2}}>

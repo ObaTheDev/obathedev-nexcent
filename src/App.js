@@ -20,13 +20,13 @@ function App() {
         </div>
       <div className=''>
           <Routes>
-          <Route path="/" Component={Register} />
-          <Route path="/home" Component={Hero} />
-          <Route path = "/Login" Component={Login}/>
-          <Route path = "/features" Component={Features}/>
-          <Route path = "/blog" Component={Blog}/>
-          <Route path = "/community" Component={Community}/>
-          <Route path = "/pricing" Component={Pricing}/>
+          <Route path="/" element={<Register/>} />
+          <Route path="/home" element={<Hero/>} />
+          <Route path = "/login" element={<Login/>}/>
+          <Route path = "/features" element={<Features/>}/>
+          <Route path = "/blog" element={<Blog/>}/>
+          <Route path = "/community" element={<Community/>}/>
+          <Route path = "/pricing" element={<Pricing/>}/>
 
         </Routes> 
         </div>
