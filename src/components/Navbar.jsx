@@ -21,7 +21,7 @@ const Navbar = () => {
                 {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
         {/* Navbar Links (Hidden on Mobile) */}
-            <ul className={`sm:flex sm:space-x-6 lg:hidden  xl:hidden text-center absolute sm:static bg-black w-full sm:w-auto left-0 top-16 sm:top-0 transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
+            <ul className={`sm:space-x-6 lg:hidden sm:hidden   xl:hidden text-center absolute sm:static bg-black w-full sm:w-auto left-0 top-16 sm:top-0 transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
 
                 <li className="hover:text-themeGreen cursor-pointer p-4">
                     <NavLink to ="/home" className={({isActive}) => `${isActive ? "text-themeGreen" : "text-silver"}`}> Home</NavLink> 
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </li>
                     </NavLink>
         </ul>
-                <ul className=" text-silver hidden  lg:flex lg:visible gap-12 font-semibold ">
+                <ul className=" text-silver hidden md:flex md:block  lg:flex lg:visible gap-12 font-semibold ">
                     <li className="hover:text-themeGreen cursor-pointer">
                     <NavLink to ="/home" className={({isActive}) => `${isActive ? "text-themeGreen" : "text-silver"}`}> Home</NavLink> 
                     </li>
