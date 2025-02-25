@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/obathedev-nexcent/static/css/main.9d0653d5.css",
-    "main.js": "/obathedev-nexcent/static/js/main.276fc3dd.js",
-    "static/media/rafiki.png": "/obathedev-nexcent/static/media/rafiki.7ea22bd564711e270ec6.png",
-    "static/media/windows.png": "/obathedev-nexcent/static/media/windows.99a90dd2c40e34520e04.png",
-    "index.html": "/obathedev-nexcent/index.html",
-    "main.9d0653d5.css.map": "/obathedev-nexcent/static/css/main.9d0653d5.css.map",
-    "main.276fc3dd.js.map": "/obathedev-nexcent/static/js/main.276fc3dd.js.map"
+    "main.css": "/ObaTheDev/obathedev-nexcent/static/css/main.9d0653d5.css",
+    "main.js": "/ObaTheDev/obathedev-nexcent/static/js/main.8211798d.js",
+    "static/media/rafiki.png": "/ObaTheDev/obathedev-nexcent/static/media/rafiki.7ea22bd564711e270ec6.png",
+    "static/media/windows.png": "/ObaTheDev/obathedev-nexcent/static/media/windows.99a90dd2c40e34520e04.png",
+    "index.html": "/ObaTheDev/obathedev-nexcent/index.html",
+    "main.9d0653d5.css.map": "/ObaTheDev/obathedev-nexcent/static/css/main.9d0653d5.css.map",
+    "main.8211798d.js.map": "/ObaTheDev/obathedev-nexcent/static/js/main.8211798d.js.map"
   },
   "entrypoints": [
     "static/css/main.9d0653d5.css",
-    "static/js/main.276fc3dd.js"
+    "static/js/main.8211798d.js"
   ]
 }
